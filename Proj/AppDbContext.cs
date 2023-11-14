@@ -10,6 +10,6 @@ namespace Proj
 
         }
 
-        DbSet<Product> Products { get; set; } = default!;
+        public DbSet<Product> Products { get; set; } = default!;
     }
 }
