@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Proj.Entities;
 
 namespace Proj
 {
@@ -8,5 +9,7 @@ namespace Proj
         {
 
         }
+
+        DbSet<Product> Products { get; set; } = default!;
     }
 }
