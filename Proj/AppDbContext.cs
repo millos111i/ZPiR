@@ -11,5 +11,7 @@ namespace Proj
         }
 
         public DbSet<Product> Products { get; set; } = default!;
+        public DbSet<Order> Order { get; set; } = default!;
+        public DbSet<OrderItem> OrderItem { get; set; } = default!;
     }
 }
